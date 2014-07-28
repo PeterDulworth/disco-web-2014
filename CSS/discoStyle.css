@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+  background-color: #2587FF;
+}
+
+#background img{
+  position: fixed;
+  z-index: 0;
+  left: 0;
+  top:0;
+  height: 100%;
+  width: 100%;
+  opacity: 1.0;
+}
+
+.welcomebox {
+  position:absolute;
+  top:200;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+.welcomebox-container {
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  
+  max-width:1000px;
+  padding:1em 1em 0.5em 1em;
+  background:rgba(255,255,255,1);
+  color:#FFFFFF;
+  text-align:center;
+  font-family:Roboto;
+  box-shadow: 0 0 20px #fff;
+}
